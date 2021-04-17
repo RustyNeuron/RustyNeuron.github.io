@@ -1,0 +1,137 @@
+.body {
+    background-color: #36393f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e4e8e1;
+}
+a:link {
+    color: #e4e8e1;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #e4e8e1;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: skyblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.map {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-position: center;
+    margin: 20px;
+}
+#textCenter {
+    text-align: center;
+}
+#textTab {
+    text-align: left;
+}
+p.header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline;
+    vertical-align: middle;
+    font-size: 2em;
+    font-weight: bolder;
+}
+p.back {
+    position: absolute;
+    left: 7%;
+    transform: translate(-50%);
+    display: inline;
+    vertical-align: middle;
+    font-size: 2em;
+    font-weight: bolder;
+}
+p.back1 {
+    position: absolute;
+    left: 7%;
+    transform: translate(-50%, -75%);
+    display: inline;
+    vertical-align: middle;
+    font-size: 2em;
+    font-weight: bolder;
+}
+p.nav {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.wpe {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 90%;
+    background-image: url("images/wpe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cat {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 60%;
+    background-image: url("images/cat.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+.cog {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 25%;
+    top: 22%;
+    transform: translate(-50%, -55%);
+    background-image: url("images/cog.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+    display: inline-block;
+    vertical-align: middle;
+    animation-name: spin;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.chiki {
+    width: 575px;
+    height: 500px;
+    position: relative;
+    left: 30%;
+    background-image: url("images/chiki1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 575px 500px;
+}
+.chiki:hover {
+    background-image: url("images/chiki2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 575px 500px;
+}
+.body {
+    background-color: #36393f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e4e8e1;
+}

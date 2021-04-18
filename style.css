@@ -92,6 +92,18 @@ p.nav {
     display: inline-block;
     vertical-align: middle;
 }
+.cat1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 55%;
+    background-image: url("images/cat1.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
 @keyframes spin {
     from {transform: rotate(0deg);}
     to {transform: rotate(359deg);}
@@ -139,6 +151,20 @@ p.nav {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+}
+#ruler {
+	overflow: hidden;
+	font-family: monospace;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+	height: 70px;
+    width: 20cm;
+	line-height: 70px;
+	word-spacing: 5mm;
+	background: rgb(92, 96, 109) repeat-x;
+	background-image: linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px), linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px), linear-gradient(270deg, rgb(0,0,0) 1px, rgba(0,0,0,0) 1px);
+	background-size: 1mm 20%, 5mm 30%, 1cm 40%;
 }
 .circles{
     position: fixed;
